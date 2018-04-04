@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eres.room4p2.EnterValue">
+
+    <EditText
+        android:id="@+id/original_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter word here"
+        android:textColor="#1443ba"
+        android:layout_marginTop="100dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/the_Antonym"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="182dp"
+        android:hint="Enter Antonym Here"
+        android:inputType="text"
+        android:textColor="#5c42c4" />
+
+    <Button
+        android:id="@+id/Submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/the_Antonym"
+        android:layout_marginTop="24dp"
+        android:background="#0c0f4c"
+        android:gravity="center"
+        android:textColor="#d8d261"
+        android:text="Submit" />
+</RelativeLayout>
